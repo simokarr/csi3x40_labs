@@ -1,2 +1,2 @@
 # csi3x40_labs
-yurrrrr 
+yurrrrr this is labs for this class
