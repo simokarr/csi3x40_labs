@@ -1,0 +1,202 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #444;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+header-title {
+    color: #ffffff;
+
+}
+header:hover {
+    background: #f5f5f5;
+}
+
+header h1,
+header p,
+header a {
+    color: #fff; /* Change this to your desired color */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #bbb;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Section Styles */
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+.profile-img {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.resume-container header h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.resume-container section {
+    margin-bottom: 1.5rem;
+}
+
+.resume-container h2, .resume-container h3 {
+    color: #444;
+    border-bottom: 2px solid #bbb;
+    padding-bottom: 0.5rem;
+}
+
+.resume-container p, .resume-container ul {
+    color: #555;
+}
+
+.resume-container ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+.resume-container a {
+    color: #444;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.resume-container a:hover {
+    color: #000;
+}
+
+/* Projects Section */
+#projects ul {
+    padding: 0;
+}
+
+#projects li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.project-img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    color: #444;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #444;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .resume-container {
+        padding: 1rem;
+    }
+}
