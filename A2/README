@@ -1,0 +1,8 @@
+CSI 3140 Assignment 2
+Yatzy Game
+
+To play our game, run the program to open it in a webpage, and click the "Roll Dice" button to roll the dice. You can click on the dice to hold them, and then click "Roll Dice" again to roll the remaining dice. You can roll the dice up to 3 times. After the third roll, the game will automatically score your roll. You can then click "New Game" to start a new game.
+The goal of the game is to achieve the highest score possible by rolling the dice and scoring them in the categories. The categories are as follows:
+Any matching dice, straight, full house, 3 of a kind, 4 of a kind, 5 of a kind, chance, and yahtzee.
+
+See images titled "View" for UI of the game. Shown are all the frames of one round of the game, split into 5 steps, the final step being scoring the roll.
