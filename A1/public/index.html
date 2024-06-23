@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samih's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Samih Karroum's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img class="profile-img" src="C:/Users/samih/projects/csi3x40_labs/A1/public/images/me.jpg" alt="Samih" style="width:150px;height:150px;">
+            <p>Welcome to my portfolio! I am a CS and Economics double major at the University of Ottawa. I am interested in reinforcement learning and game theory and I am hoping to pursue graduate studies in ML/AI. 
+            I have interned 4 times, including at Valero Energy where I worked on data and backend applications. Fun fact about me is that I am a three-year basketball coach and have a 1400 chess rating.
+            </p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <header>
+                    <h1>Samih Karroum</h1>
+                    <p>Email: <a href="mailto:samihkarroum1@gmail.com">samihkarroum1@gmail.com</a> | Phone: (613)-501-3122 | 
+                    <a href="https://www.linkedin.com/in/samihkarroum" target="_blank">LinkedIn</a> | 
+                    GitHub: <a href="https://github.com/simokarr" target="_blank">simokarr</a></p>
+                </header>
+
+                <section>
+                    <h2>Education</h2>
+                    <p><strong>University of Ottawa</strong> - Ottawa, Ontario</p>
+                    <p>Honours BSc in Computer Science and Economics (Expected Graduation, May 2025)</p>
+                    <ul>
+                        <li>GPA: 3.9/4.00, Merit Scholar</li>
+                        <li>Awards: Adobe Systems Canada Scholarship, Dr. Tyseer Aboulnasr Scholarship, First Generation Bursary, Ontario Esports Scholarship</li>
+                        <li>uOttawa Head delegate at CUSEC: Orchestrated uOttawa's representation, raising $11,000 and coordinating a comprehensive Montreal excursion for 40 students.</li>
+                        <li>Related Coursework: Data Structures & Algorithms, Objects & Design, Computer Organization & Programming, Machine Learning, Artificial Intelligence, Object-Oriented Programming, Statistics & Applications, Architecture</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Experience</h2>
+                    <h3>Valero Energy Corp</h3>
+                    <p>Software Engineer Intern (May 2023 – Aug 2023) - Quebec City, Quebec</p>
+                    <ul>
+                        <li>Developed a dynamic dashboard for tracking lab-tested compounds using Flask for server operations and PlotlyJs for client-side operations, providing a comprehensive internal solution.</li>
+                        <li>Engineered a comprehensive RESTful API using Python Flask designed for optimal data retrieval, enabling efficient access and manipulation of information from a centralized datastore.</li>
+                        <li>Integrated key statistical process control indicators into the dashboard (EWMA, UCL, LCL) as well as feature engineering to implement different Scikit models, displaying data trends and future PCT score predictions.</li>
+                        <li>Developed Z-score data visualizations by leveraging the capabilities of Pandas, NumPy, and Matplotlib, enhancing analytical insights and data interpretability.</li>
+                    </ul>
+                    
+                    <h3>House of Commons Canada</h3>
+                    <p>Software Developer Intern (Sept 2022 – Dec 2022) - Ottawa, Ontario</p>
+                    <ul>
+                        <li>Utilized PnP PowerShell Module to craft scripts for SharePoint database migrations. Achieved streamlined updates to the parliamentary database.</li>
+                        <li>Contributed to the platform for the House of Commons silent auction, applying Liquid for customizations and optimizing user experience via TIPO.</li>
+                        <li>Migrated TFS repositories to Azure Cloud using Docker while managing application dependencies for transition, streamlining cloud integration.</li>
+                    </ul>
+
+                    <h3>Matrox Inc</h3>
+                    <p>Software Quality Assurance Intern (Jan 2022 – April 2022) - Montreal, Quebec</p>
+                    <ul>
+                        <li>Worked on the creation of a full-stack Flutter web application, meticulously handling UI/UX design to deliver live streaming metrics from our proprietary video streaming device. This initiative dramatically bolstered productivity and enhanced time management for both QA and Engineering teams.</li>
+                        <li>Developed a ReactJS tool to transfer .sdp file formats into easily digestible data, such as live resolution, refresh rates, and session durations. This project significantly boosted efficiency across QA and Engineering departments.</li>
+                        <li>Undertook rigorous verification processes for 2D & 3D display drivers and hardware within TestRail and Jira environments, ensuring peak performance and reliability.</li>
+                        <li>Utilized SSH tools like Putty and WinSCP for hardware debugging. Additionally, delved deep into memory management using C++ to detect and rectify memory leaks.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><strong>Languages:</strong> Java, Python, JavaScript, HTML/CSS, SQL, C++, Go, Kotlin, TypeScript</li>
+                        <li><strong>Frameworks:</strong> ReactJS, Angular, Spring, React Native, MySQL, PostgreSQL, Firebase, Flask, SciKit-Learn, MongoDB</li>
+                        <li><strong>Tools:</strong> Android Studio, IntelliJ, PyCharm, AWS, GCP, Jupyter Notebooks, Git, JIRA, VSCode, REST, SOAP, GraphQL</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>TempoTunes</strong> (Firebase, Python, Flask, Spotipy, React Native, expo, OpenAI API): Developing a cross-platform application that tracks a runner's steps per minute and queues a song to their Spotify that has a similar beats per minute based on taste, queries, preferences, etc.
+                    <br>
+                    <a href="https://github.com/simokarr/tempotunestwo" target="_blank">View Repository</a>
+                    <br>
+                    <img class="project-img" src="C:/Users/samih/projects/csi3x40_labs/A1/public/images/Screenshot 2024-06-02 183519.png" alt="TempoTunes">
+                </li>
+                <li><strong>Parley Builder</strong> (Python, Flask, Scikit-Learn, Angular): Developed an NBA parley builder that creates NBA bets using Neural Networks and Gaussian Naive Bayes, providing accurate bets with high returns.
+                    <br>
+                    <a href="https://github.com/simokarr/ParleyPilot" target="_blank">View Repository</a>
+                    <br>
+                    <img class="project-img" src="C:/Users/samih/projects/csi3x40_labs/A1/public/images/Screenshot 2024-06-02 193831.png" alt="ParleyPilot">
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: samihkarroum1@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Samih's Portfolio</p>
+    </footer>
+</body>
+</html>
