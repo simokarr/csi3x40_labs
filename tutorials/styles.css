@@ -1,0 +1,11 @@
+* {
+    font-size: 1.5em;
+    color: #fc0909;
+   }
+
+   body {
+    background-image: url('C:/Users/samih/projects/csi3x40_labs/A1/public/images/Screenshot 2024-06-02 183519.png');
+    background-position: center 50%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+   }

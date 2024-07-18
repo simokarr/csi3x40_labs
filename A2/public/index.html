@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yatzy Game</title>
+    <title>Yahtzee Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Yatzy Game</h1>
+        <h1>Yahtzee Game</h1>
     </header>
     <main>
         <div class="dice-container" id="dice-container">
@@ -20,7 +20,17 @@
         </div>
         <div class="controls">
             <button id="roll-button">Roll Dice</button>
-            <button id="score-button">Score</button>
+            <button id="score-button" disabled>Score</button>
+        </div>
+        <div class="categories">
+            <h2>Choose a Category</h2>
+            <button class="category-button" data-category="threeOfAKind">Three of a Kind</button>
+            <button class="category-button" data-category="fourOfAKind">Four of a Kind</button>
+            <button class="category-button" data-category="fullHouse">Full House</button>
+            <button class="category-button" data-category="smallStraight">Small Straight</button>
+            <button class="category-button" data-category="largeStraight">Large Straight</button>
+            <button class="category-button" data-category="yahtzee">Yahtzee</button>
+            <button class="category-button" data-category="chance">Chance</button>
         </div>
         <div class="scoreboard">
             <h2>Scoreboard</h2>
@@ -38,7 +48,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Yatzy Game</p>
+        <p>&copy; 2024 Yahtzee Game</p>
     </footer>
     <script src="script.js"></script>
 </body>
